@@ -1,0 +1,216 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+
+
+
+html {
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;
+  }
+
+
+body{
+	display:flex;
+	justify-content: center;
+	background-image: url("icons/icon2.jpg");
+}
+
+.mainblock{
+	display:flex;
+	flex-direction: column;
+	width:960px;
+	max-width: 100%;
+	padding:10px 10px 50px 10px;
+	background-color: white;
+}
+
+
+.firstblock{
+	background-color:rgb(221, 221, 221);
+	padding:20px 50px;
+	display:flex;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.photo{
+	width:220px;
+	border-radius: 10px;
+}
+
+.name h1{
+	font-size:40px;
+	font-weight:900;
+	color: rgb(177, 70, 8);
+}
+
+.name h3{
+	font-size: 25px;
+	text-align: center;
+	letter-spacing: 1.5px;
+}
+
+.secondblock{
+	margin-top:25px;
+}
+
+.aboutme1 h2, .aboutme2 h2{
+	font-size:20px;
+	font-weight:900;
+	color: rgb(177, 70, 8);
+}
+
+.aboutme1 p{
+	margin-top:10px;
+	
+}
+
+.aboutme2 h2, .aboutme2 ul{
+	margin-top:10px;
+}
+
+.thirdblock{
+	margin-top: 25px;
+	font-size: 25px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	border-bottom: solid black 1px;
+	margin-bottom: 15px;
+}
+
+.fouthblock h2{
+	font-size:20px;
+	font-weight:900;
+	color: rgb(177, 70, 8);
+}
+
+.fouthblock h3{
+	font-size: 15px;
+	font-weight: 900;
+	margin-top:5px;
+}
+
+.fouthblock p{
+	margin-top:10px;
+}
+
+.fouthblockSecondDiv{
+	margin-top:15px;
+}
+
+.fifthblock{
+	margin-top: 25px;
+	font-size: 25px;
+	font-weight: 900;
+	padding-bottom: 10px;
+	border-bottom: solid black 1px;
+	margin-bottom: 15px;
+}
+
+.sixthblock h2{
+	font-size:20px;
+	font-weight:900;
+	color: rgb(177, 70, 8);
+}
+
+.sixthblock h3{
+	font-size: 15px;
+	font-weight: 900;
+	margin-top:5px;
+}
+
+.sixthblockSecondDiv{
+	margin-top:15px;
+}
+
+@media(min-width:800px){
+	.secondblock{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.aboutme2 h2{
+		margin-top: 0px;
+	}
+
+	.aboutme1,.aboutme2{
+		width:30%;
+	}
+
+	.fouthblock{
+		display:flex;
+		flex-direction: row;
+		justify-content:space-between;
+	}
+
+	.fouthblock div{
+		width:49%
+	}
+
+	.fouthblockSecondDiv{
+		margin-top:0px;
+	}
+
+	.sixthblock{
+		display:flex;
+		flex-direction: row;
+		justify-content: space-between;
+		
+	}
+
+	.sixthblockSecondDiv{
+		margin-top:0px;
+	}
+
+	.sixthblock div{
+		width:49%;
+	}
+
+
+
+}
